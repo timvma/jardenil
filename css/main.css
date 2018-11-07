@@ -1,0 +1,46 @@
+
+/* GENERAL CSS */
+body {
+	font-family: 'Roboto Condensed', sans-serif;	
+}
+
+
+
+/* NAVIGATION CHANGE COLOR CSS */
+
+
+#MainNav {
+  background: #fff;
+	line-height:70px;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+	z-index:5;
+}
+
+.nav-up {
+    top: -100px!important;
+}
+
+
+.hover-fade {
+	transition: all 0.5s ease-in-out;
+	-webkit-filter: opacity(100%); /* Safari 6.0 - 9.0 */
+  filter: opacity(100%);
+}
+
+.hover-fade:hover {
+	transition: all 0.4s ease-in-out;
+	-webkit-filter: opcity(70%); /* Safari 6.0 - 9.0 */
+  filter: opacity(70%);
+}
+
+section {
+	padding:5% 0;
+	overflow:hidden;
+}
+
+
+
+

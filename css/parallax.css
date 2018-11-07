@@ -1,0 +1,64 @@
+.parallax-bg { 
+    /* The image used */
+    background-image: url("../img/img.jpg");
+
+    /* Set a specific height */
+    height: 50vw; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-inner { 
+
+/* The image used */
+    background-image: url("../img/logo.png");
+
+    /* Set a specific height */
+    height: 50vw; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: ;
+ 
+}
+
+
+
+#asd{
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    -moz-perspective: 1px;
+    perspective: 1px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+		height: 100%;
+		overflow: hidden;
+}
+	
+	.parallax-container{
+    height:50vw;
+}
+
+
+video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+    -moz-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+    transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+    z-index: -99
+}
